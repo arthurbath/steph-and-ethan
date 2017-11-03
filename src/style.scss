@@ -1,1 +1,36 @@
 @import 'normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+:root {
+	font-size: 20px;
+}
+
+.splash {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('images/botanical-2.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.title {
+	font-size: 3em;
+	margin: 0 0 0.1em 0;
+}
+
+.subtitle {
+	margin: 0;
+}
+
+.header {
+	text-align: center;
+	font-family: 'Niconne', cursive;
+	color: white;
+	text-shadow: 0 1px 1px black;
+}
